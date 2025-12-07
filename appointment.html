@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo Hospital - Book Appointment</title>
+
+    <link rel="stylesheet" href="appointment.css">
+
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" href="logo.png">
+</head>
+
+
+
+<body>
+
+    <div class="wrapper">
+
+
+        <div class="left">
+            <h1>Apollo Appointment Center</h1>
+            <p>Book appointments with India's most trusted healthcare specialists.
+                Choose a doctor, select a time, and get instant confirmation.</p>
+
+            <div class="features">
+                <p>✔ 24/7 Appointment Slots</p>
+                <p>✔ Verified Doctors</p>
+                <p>✔ Instant Booking Confirmation</p>
+                <p>✔ Emergency Assistance Available</p>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h2>Book Appointment</h2>
+            <p class="subtitle">Fill the details below to schedule your visit</p>
+
+            <form>
+
+                <label>Patient Full Name</label>
+                <input type="text" required placeholder="Enter patient name">
+
+                <label>Contact Number</label>
+                <input type="tel" required maxlength="10" placeholder="10-digit mobile number">
+
+                <label>Select Department</label>
+                <select required>
+                    <option value="">Choose Department</option>
+                    <option>Cardiology</option>
+                    <option>Gynecology</option>
+                    <option>Neurology</option>
+                    <option>Orthopedics</option>
+                    <option>Pediatrics</option>
+                    <option>Dermatology</option>
+                    <option>General Medicine</option>
+                </select>
+
+                <label>Select Doctor</label>
+                <select required>
+                    <option value="">Choose Doctor</option>
+                    <option>Dr. Anil Reddy — Cardiology</option>
+                    <option>Dr. Meera Shah — Orthopedics</option>
+                    <option>Dr. S. Kapoor — Pediatrics</option>
+                    <option>Dr. Tarun Verma — Neurology</option>
+                    <option>Dr. Sneha Rao — Dermatology</option>
+                </select>
+
+                <label>Visit Type</label>
+                <select required>
+                    <option>Hospital Visit</option>
+                    <option>Online Video Consultation</option>
+                    <option>Home Visit</option>
+                </select>
+
+                <label>Appointment Date</label>
+                <input type="date" required>
+
+                <label>Appointment Time</label>
+                <input type="time" required>
+
+                <label>Payment Method</label>
+                <select required>
+                    <option>Pay at Hospital</option>
+                    <option>UPI</option>
+                    <option>Credit/Debit Card</option>
+                    <option>Net Banking</option>
+                </select>
+
+                <label>Additional Notes</label>
+                <textarea rows="3" placeholder="Describe symptoms or concerns (optional)"></textarea>
+
+                <button class="btn-primary" onclick="window.location.href='appointment-success.html'">
+                    Confirm Appointment
+                </button>
+
+
+                <a href="index.html" class="back">← Back to Home</a>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

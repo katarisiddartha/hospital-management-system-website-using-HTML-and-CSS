@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apollo Hospital : Home</title>
+
+
+        <link rel="stylesheet" href="hospital.css">
+
+
+        <link rel="icon" type="image/png" href="logo.png">
+        <link rel="shortcut icon" href="logo.png">
+    </head>
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="nav" aria-label="main navigation">
+            <a href="#" class="brand">
+                <div class="logo">
+                    <img src="logo.png" alt="Hospital Logo" width="40px" height="40px">
+                </div>
+
+                <div>
+                    <h1>Apollo Hospital</h1>
+                    <div class="small-muted">Care. Innovation. Trust.</div>
+                </div>
+            </a>
+
+            <div class="nav-links" role="navigation">
+                <a href="#home">Home</a>
+                <a href="register.html">Register</a>
+                <a href="appointment.html">Appointment</a>
+                <a href="#dashboard">Dashboard</a>
+                <a href="finddoctors.html" class="cta">Find Doctor</a>
+                <a href="#contact" class="cta">Contact</a>
+            </div>
+        </nav>
+
+
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="hero-left">
+                <h2 id="hero-heading">World-class care, close to you</h2>
+                <p>Experience world-class healthcare at Apollo's specialized hubs of medical innovation. Our
+                    state-of-the-art centres deliver unparalleled expertise in key specialties and super specialties.
+                    Each centre stands as a beacon of cutting-edge care, setting new benchmarks in clinical outcomes
+                    globally.</p>
+
+                <div class="hero-buttons">
+                    <a class="btn btn-primary" href="register.html">Register Patient</a>
+                    <a class="btn btn-outline" href="appointment.html">Book Appointment</a>
+                </div>
+
+                <div style="margin-top:16px; display:flex; gap:12px; align-items:center">
+                    <div class="card small-muted" style="padding:10px 12px;">24/7 Emergency</div>
+                    <div class="card small-muted" style="padding:10px 12px;">Experienced Consultants</div>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <img class="hero-illustration" alt="hospital"
+                    src="https://cdn.apollohospitals.com/dev-apollohospitals/images/news/new-Front-Facade-30-04-2016.jpg"
+                    height="300px">
+            </div>
+        </section>
+
+
+        <section id="services" style="margin-top:30px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px">
+                <h3>Our Services</h3>
+                <div class="small-muted">Comprehensive care across specialties</div>
+            </div>
+
+            <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px;">
+                <div class="card">
+                    <h4>Cardiology</h4>
+                    <p class="small-muted">Advanced heart care — cath lab, interventional cardiology and rehabilitation.
+                    </p>
+                </div>
+                <div class="card">
+                    <h4>Orthopedics</h4>
+                    <p class="small-muted">Joint replacement, sports injury clinic, and physiotherapy suites.</p>
+                </div>
+                <div class="card">
+                    <h4>Neurology & Neurosurgery</h4>
+                    <p class="small-muted">Stroke unit, minimally invasive neurosurgery and neurorehab services.</p>
+                </div>
+                <div class="card">
+                    <h4>Oncology</h4>
+                    <p class="small-muted">Comprehensive cancer care: chemo, radiation, surgical oncology and
+                        counselling.</p>
+                </div>
+                <div class="card">
+                    <h4>Pediatrics</h4>
+                    <p class="small-muted">Neonatal ICU, pediatric surgery and child-friendly outpatient care.</p>
+                </div>
+                <div class="card">
+                    <h4>Maternity & Women’s Health</h4>
+                    <p class="small-muted">High-risk pregnancy care, antenatal classes and women’s wellness programs.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" style="margin-top:30px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px">
+                <h3>Patient Stories</h3>
+                <div class="small-muted">Voices of recovery and hope</div>
+            </div>
+
+            <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px;">
+                <div class="card">
+                    <strong>Rina P.</strong>
+                    <p class="small-muted">“The team showed remarkable care during my surgery. Communication was
+                        excellent and the recovery team supported me every step.”</p>
+                </div>
+
+                <div class="card">
+                    <strong>Arjun S.</strong>
+                    <p class="small-muted">“From diagnosis to treatment, the cardiology unit was professional and deeply
+                        reassuring.”</p>
+                </div>
+
+                <div class="card">
+                    <strong>Meeta K.</strong>
+                    <p class="small-muted">“Our newborn received excellent NICU care — the staff were compassionate and
+                        skilled.”</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="doctors" style="margin-top:30px">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px">
+                <h3>Our Specialists</h3>
+                <div class="small-muted">Trusted by thousands</div>
+            </div>
+
+            <div class="grid">
+                <div class="col-4">
+                    <div class="doctor">
+                        <img class="avatar"
+                            src="https://wallpapers.com/images/hd/doctor-johnny-sins-6vleyqyzdu5tcn5c.jpg" alt="Dr">
+                        <div class="doc-meta">
+                            <h4>Dr. Jhonny Patel</h4>
+                            <div class="small-muted">MBBS, MD — Cardiology</div>
+                            <div style="margin-top:8px"><span class="badge">Cardiology</span></div>
+                            <div class="doc-actions">
+                                <a class="btn btn-primary" href="appointment.html">Book</a>
+                                <a class="btn btn-outline" href="#">Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="doctor">
+                        <img class="avatar"
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Findian-female-doctor-portrait-south-indian-young-lady-doctor-holding-stethoscope-hand_527904-1884.jpg"
+                            alt="Dr">
+                        <div class="doc-meta">
+                            <h4>Dr. Meera Blue</h4>
+                            <div class="small-muted">MS — Gynecologist</div>
+                            <div style="margin-top:8px"><span class="badge">Gynecologist</span></div>
+                            <div class="doc-actions">
+                                <a class="btn btn-primary" href="appointment.html">Book</a>
+                                <a class="btn btn-outline" href="#">Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="doctor">
+                        <img class="avatar" src="https://i.ytimg.com/vi/iVsjN33kvcM/maxresdefault.jpg" alt="Dr">
+                        <div class="doc-meta">
+                            <h4>Dr. Rowan Sebastian Atkinson</h4>
+                            <div class="small-muted">MS - Psychiatrist</div>
+                            <div style="margin-top:8px"><span class="badge">Psychiatrist</span></div>
+                            <div class="doc-actions">
+                                <a class="btn btn-primary" href="appointment.html">Book</a>
+                                <a class="btn btn-outline" href="#">Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="news" style="margin-top:30px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px">
+                <h3>Latest News</h3>
+                <div class="small-muted">Updates & announcements</div>
+            </div>
+
+            <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px;">
+                <div class="card">
+                    <h4>New Cardiac Wing Opens</h4>
+                    <p class="small-muted">We inaugurated a new cath lab facility to expand cardiac care services.</p>
+                </div>
+                <div class="card">
+                    <h4>Free Health Camp</h4>
+                    <p class="small-muted">Community health camp: free screenings on 15th Dec. Walk-ins welcome.</p>
+                </div>
+                <div class="card">
+                    <h4>Vaccination Drive</h4>
+                    <p class="small-muted">Seasonal vaccine clinics available at all our branches.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="subscribe" style="margin-top:30px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px">
+                <h3>Stay Informed</h3>
+                <div class="small-muted">Get health tips & news</div>
+            </div>
+
+            <div class="card" style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+                <div style="flex:1; min-width:200px">
+                    <p class="small-muted">Subscribe to our newsletter for weekly health tips and hospital updates.</p>
+                </div>
+
+                <form style="display:flex; gap:8px; min-width:280px; margin-left:auto;">
+                    <input type="email" placeholder="you@domain.com"
+                        style="padding:10px 12px; border-radius:8px; border:1px solid #d1d5db;">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+
+        <section id="dashboard" style="margin-top:30px">
+            <h3>Dashboard Overview</h3>
+
+            <div class="stats"
+                style="margin-top:12px; display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px;">
+                <div class="stat card" style="text-align:center; padding:16px;">
+                    <h3>128</h3>
+                    <p>Patients Today</p>
+                </div>
+                <div class="stat card" style="text-align:center; padding:16px;">
+                    <h3>46</h3>
+                    <p>Appointments</p>
+                </div>
+                <div class="stat card" style="text-align:center; padding:16px;">
+                    <h3>12</h3>
+                    <p>Doctors On Duty</p>
+                </div>
+                <div class="stat card" style="text-align:center; padding:16px;">
+                    <h3>22</h3>
+                    <p>Open Beds</p>
+                </div>
+            </div>
+
+            <div style="margin-top:14px" class="grid">
+                <div class="col-8">
+                    <div class="card">
+                        <h4>Recent Registrations</h4>
+                        <div style="margin-top:12px; display:flex; flex-direction:column; gap:10px">
+
+                            <div style="display:flex; justify-content:space-between">
+                                <div><strong>Kassandra</strong><br><span class="small-muted">Age 29 • O+</span></div>
+                                <div class="small-muted">2h ago</div>
+                            </div>
+
+                            <div style="display:flex; justify-content:space-between">
+                                <div><strong>Ezio Auditore</strong><br><span class="small-muted">Age 42 • AB+</span>
+                                </div>
+                                <div class="small-muted">4h ago</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <h4>Quick Actions</h4>
+                        <div style="display:flex; flex-direction:column; gap:8px; margin-top:8px">
+                            <a class="btn btn-outline" href="register.html">New Patient</a>
+                            <a class="btn btn-outline" href="appointment.html">New Appointment</a>
+                            <a class="btn btn-outline" href="finddoctors.html">Find Doctor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" style="margin-top:30px; margin-bottom:26px">
+            <div class="card">
+                <h3>Contact Us</h3>
+                <p class="small-muted">Send us a short message and we'll get back to you.</p>
+
+                <form style="margin-top:12px; display:grid; grid-template-columns:repeat(3,1fr); gap:10px">
+                    <div>
+                        <label>Your Name</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div>
+                        <label>Email</label>
+                        <input type="email" required>
+                    </div>
+
+                    <div style="grid-column:span 3">
+                        <label>Message</label>
+                        <textarea rows="4" required></textarea>
+                    </div>
+
+                    <div style="grid-column:span 3; display:flex; justify-content:flex-end">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <footer style="margin-top:28px; padding-top:20px; border-top:1px solid rgba(2,6,23,0.04)">
+            <div style="display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; align-items:center">
+                <div>
+                    <strong>Apollo Hospital</strong><br>
+                    <div class="small-muted">Care. Innovation. Trust.</div>
+                </div>
+
+                <div style="display:flex; gap:12px; align-items:center;">
+                    <a href="#" aria-label="facebook" title="Facebook">🔵</a>
+                    <a href="#" aria-label="twitter" title="Twitter">🐦</a>
+                    <a href="#" aria-label="instagram" title="Instagram">📸</a>
+                </div>
+
+                <div style="display:flex; gap:12px; align-items:center;">
+                    <a class="small-muted" href="register.html">Register</a>
+                    <a class="small-muted" href="appointment.html">Appointment</a>
+                    <a class="small-muted" href="finddoctors.html">Find Doctor</a>
+                </div>
+            </div>
+
+            <div style="margin-top:16px; text-align:center" class="small-muted">
+                © <strong>Apollo Hospital</strong> — Built with care.
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
